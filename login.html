@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HomePage</title>
+    <link href = "styles.css" type="text/css" rel="stylesheet"/>
+    <script src="validate_forms.js"></script>
+</head>
+<body>
+<div id = "header">
+    <h1>Forget-It</h1>
+</div>
+<div class = "content">
+    <div class = "text_box">
+        <h2>Register New User</h2>
+    </div>
+    <form method="post" action="/index.php">
+    <div class = "text_box">
+        <p>
+            <label for = "reg_first">First Name :</label>
+            <input type="text" name="first_name" id = "reg_first" class = 'valid'/>
+        </p>
+    </div>
+    <div class = "text_box">
+        <p>
+            <label for = "reg_last">Last Name :</label>
+            <input type="text" name="last_name" id = "reg_last" class = 'valid'/>
+        </p>
+    </div>
+    <div class = "text_box">
+        <p>
+            <label for = "reg_user">Username :</label>
+            <input type="text" name="username" id = "reg_user" class = 'valid'/>
+        </p>
+    </div>
+    <div class = "text_box">
+        <p>
+            <label for = "reg_pass_1">Password :</label>
+            <input type="password" name="password_1" id = "reg_pass_1" class = 'valid'/>
+        </p>
+    </div>
+    <div class = "text_box">
+        <p>
+            <label for = "reg_pass_2">Re-type Password :</label>
+            <input type="password" name="password_2" id = "reg_pass_2" class = 'valid' onkeyup="password_check('reg_pass_1', 'reg_pass_2')"/>
+        </p>
+    </div>
+    <div class = "text_box">
+        <input type="submit" name="reg_button" value="Register">
+    </div>
+    </form>
+</div>
+
+<div class = "content2">
+    <div class = "text_box">
+        <h2>Login</h2>
+    </div>
+    <form method="post" action="/index.php">
+    <div class = "text_box">
+        <p>
+            <label for = "log_user">Username :</label>
+            <input type="text" name="username" id = "log_user" class = 'valid'/>
+        </p>
+    </div>
+    <div class = "text_box">
+        <p>
+            <label for = "log_pass">Password : </label>
+            <input type="password" name="password" id = "log_pass" class = 'valid'/>
+        </p>
+    </div>
+    <div class = "text_box">
+        <input type="submit" name="log_button" value="Submit">
+    </div>
+    </form>
+</div>
+</body>
+
+
+</html>

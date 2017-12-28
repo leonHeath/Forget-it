@@ -53,21 +53,21 @@ class DB
                     $type = PDO::PARAM_STR;
             }
         }
-        $this->sql->PDO::bindValue($param, $value, $type);
+        $this->sql->bindValue($param, $value, $type);
     }
 
     public function execute(){
-        return $this->sql->PDO::execute();
+        return $this->sql->execute();
     }
 
     public function single(){
         $this->execute();
-        return $this->sql->PDO::fetch(PDO::FETCH_ASSOC);
+        return $this->sql->fetch(PDO::FETCH_ASSOC);
     }
 
     public function result_set(){
         $this->execute();
-        return $this->sql->PDO::fetchAll(PDO::FETCH_ASSOC);
+        return $this->sql->fetchAll(PDO::FETCH_ASSOC);
     }
 
 }

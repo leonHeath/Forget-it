@@ -8,6 +8,7 @@
  * @param $hashedPass
  * @return bool
  */
+require_once('database.php');
 
 function checkPass($password, $hashedPass){
     //Check value in hashedPass
@@ -29,6 +30,9 @@ function login($username, $password){
         //login
         $_SESSION['username'] = $username;
     }
+    else{
+        print("Unregistered user");
+    }
 }
 
 session_start();
@@ -37,47 +41,22 @@ if (isset($_SESSION['username'])) {
 }
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-    login($username,$password);
+    if (isset($_POST['reg_button'])) {
+        //register user action
+        print("Hit reg");
+        $first_name = $_POST['first_name'];
+        $last_name = $_POST['last_name'];
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+    } else if (isset($_POST['log_button'])) {
+        print("Hit login");
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        login($username,$password);
+    } else {
+        //Do not do anything
+        //Spit out an error
+    }
 }
-?>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login</title>
-    <style type = "text/css">
-        body{
-            font-family:Arial, Helvetica, sans-serif;
-            font-size:14px;
-        }
-        label{
-            display:inline-block;
-            width:100px;
-            margin-bottom:10px;
-            font-size:14px;
-        }
-        .center {
-            text-align: center;
-        }
-    </style>
-
-</head>
-<body>
-<div class="center">
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"])?>">
-        <label>Username :</label>
-        <input type="text" name="user_name" />
-        <br />
-        <label>Password :</label>
-        <input type="text" name="password" />
-        <br />
-        <input type="submit" name="submit" value="Submit">
-    </form>
-    <!--    <div style = "font-size:11px; color:#cc0000; margin-top:10px">--><?php //echo $error; ?><!--</div>-->
-</div>
-
-
-</body>
-</html>
+echo strtr(file_get_contents('login.html'), array());

@@ -2,6 +2,9 @@
   <dictionary name="Leon">
     <words>
       <w>dbname</w>
+      <w>fname</w>
+      <w>htmlspecialchars</w>
+      <w>lname</w>
       <w>uname</w>
     </words>
   </dictionary>
