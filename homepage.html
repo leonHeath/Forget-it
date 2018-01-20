@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
     <title>Forget-it</title>
+    <meta charset="UTF-8">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Homepage styles -->
+    <link rel="stylesheet" href="homepage_styles.css">
+    <!-- Homepage logic code -->
+    <script src="homepage_logic.js"></script>
 </head>
 <body>
-    Username
-    <br/>
-    <input type="text" size = "100" id="User_Name" />
+<header>
+    <h1>Forget-It</h1>
+</header>
+<div class="content">
+    <div class="modal fade" id="edit-task-modal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Edit Task</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="edit-task-form">
+                        <div class="input">
+                            <input type="text" name="task_title" class = 'valid stretch' placeholder="Title"/>
+                        </div>
+                        <div class="input">
+                            <textarea name="task_desc" id="edit-task-desc" class = 'stretch' placeholder="Task description." rows="5"></textarea>
+                        </div>
+                        <div class="input">
+                            <input class="stretch btn btn-default save" value="Save" type="submit"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <aside>
+        <h3 class = "user-info">
+            <?php echo "Welcome back " . $_SESSION['first_name'] .""?>
+        </h3>
+        <ul class = "user-options">
+            <li class = "selectable">
+                Settings
+            </li>
+            <li class = "selectable">
+                Logout
+            </li>
+        </ul>
+        <h3 class = "user-info">
+            Projects
+        </h3>
+        <ul class = projects>
+            <li type="text" class = "selectable">
+                To-Do
+            </li>
+            <li type="text" class="selectable" id=new-project>
+                New Project
+            </li>
+        </ul>
+    </aside>
+    <div class = "note-space">
+        <div class="note">
+            <div class="note-header">
+                <div class="note-title"><h3>Title</h3></div>
+                <button id="edit-task" class="hide"  data-toggle="modal" data-target="#edit-task-modal"></button>
+            </div>
+            <div class="note-content">
+               <p class="note-description">Note description.</p>
+            </div>
+        </div>
+        <div id="button-holder">
+            <button id="add-task"></button>
+        </div>
+    </div>
+</div>
 </body>
 </html>

@@ -1,0 +1,180 @@
+html{
+     height: 100%;
+ }
+
+body {
+    margin: 0 0 0 0;
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    height: 100%;
+}
+
+header{
+    background-color: #4ABDAC;
+    color: #F7B733;
+    width:100%;
+    height: 90px;
+    padding: .5%;
+    box-shadow: 0 3px 5px rgba(100, 100, 100, 0.49);
+    position: fixed;
+    z-index: 5;
+}
+
+.content{
+    height: 100%;
+    position: relative;
+    padding-top: 90px;
+}
+
+aside{
+    font-family:Arial, Helvetica, sans-serif;
+    float: left;
+    height: 100%;
+//overflow: auto;
+    position: fixed;
+    width:20%;
+//padding: .5%;
+    background-color: #efedf1; //#DFDCE3;
+}
+
+.projects{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.user-options{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.user-info{
+    list-style: none;
+    float: left;
+    width:98%;
+    color: #FC4A1A;
+    margin: 2%;
+}
+
+.selectable{
+    list-style: none;
+    float: left;
+    width:96%;
+//display: block;
+    color: #FC4A1A;
+    padding: 2%;
+//background-color: #DFDCE3;
+    overflow: hidden;
+}
+
+.editable{
+
+}
+
+.selectable:hover{
+    cursor: pointer;
+    background-color: #7DF0DF;
+}
+
+.selected{
+    background-color: #4ABDAC;
+}
+
+.note-space{
+    margin-left:20%;
+    overflow: auto;
+    background-color: #efedf1;
+    height: 100%;
+}
+
+.note{
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.49);
+//text-align: center;
+}
+
+.note-header{
+    text-align: left;
+}
+
+.note-title{
+    display: inline-block;
+}
+
+
+.note-content{
+    width: 97%;
+    height: 70%;
+    display: inline-block;
+}
+
+.note-description{
+    box-sizing:border-box;
+    resize: none;
+    width: 100%;
+    height: 100%;
+}
+
+#button-holder{
+    height: 360px;
+    width: 360px;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-task{
+    background-image: url('Images/add-button-v3.png');
+    background-size: 180px;
+    height: 180px;
+    width: 180px;
+    border:none;
+    border-radius: 50%;
+    outline:0;
+}
+
+#edit-task{
+    background: url('Images/edit-v2.png') no-repeat;
+    float: right;
+    background-size: 30px;
+    height: 30px;
+    width: 30px;
+    border:none;
+    display: inline-block;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+#edit-task-form{
+    width: 260px;
+    margin: 0 auto;
+}
+
+.input{
+    margin-top: 10px;
+}
+
+.save{
+    background-color: #4ABDAC;
+    margin-bottom: 10px;
+}
+
+.stretch{
+    width: 100%;
+}
+
+#edit-task-desc{
+    resize: none;
+    overflow: auto;
+}

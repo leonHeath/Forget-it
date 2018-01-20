@@ -1,11 +1,18 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Leon">
     <words>
+      <w>contenteditable</w>
       <w>dbname</w>
       <w>fname</w>
       <w>htmlspecialchars</w>
+      <w>jsdelivr</w>
+      <w>keydown</w>
       <w>lname</w>
+      <w>minlength</w>
+      <w>mouseenter</w>
+      <w>mouseleave</w>
       <w>uname</w>
+      <w>unhighlight</w>
     </words>
   </dictionary>
 </component>
