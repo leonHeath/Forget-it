@@ -1,2 +1,2 @@
 # Forget-it
-A place to allow you to forget it
+A place to store notes and to do lists.
