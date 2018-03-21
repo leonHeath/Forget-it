@@ -19,29 +19,6 @@
     <h1>Forget-It</h1>
 </header>
 <div class="content">
-    <div class="modal fade" id="edit-task-modal" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title">Edit Task</h4>
-                </div>
-                <div class="modal-body">
-                    <form id="edit-task-form">
-                        <div class="input">
-                            <input type="text" name="task_title" class = 'valid stretch' placeholder="Title"/>
-                        </div>
-                        <div class="input">
-                            <textarea name="task_desc" id="edit-task-desc" class = 'stretch' placeholder="Task description." rows="5"></textarea>
-                        </div>
-                        <div class="input">
-                            <input class="stretch btn btn-default save" value="Save" type="submit"/>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
     <aside>
         <h3 class = "user-info">
             <?php echo "Welcome back " . $_SESSION['first_name'] .""?>
@@ -67,17 +44,42 @@
         </ul>
     </aside>
     <div class = "note-space">
-        <div class="note">
+       <!--<div class="note">
             <div class="note-header">
                 <div class="note-title"><h3>Title</h3></div>
-                <button id="edit-task" class="hide"  data-toggle="modal" data-target="#edit-task-modal"></button>
+                <button id="edit-task" class="hide"></button>
             </div>
             <div class="note-content">
                <p class="note-description">Note description.</p>
             </div>
-        </div>
+        </div>-->
         <div id="button-holder">
             <button id="add-task"></button>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="edit-task-modal" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <input type="hidden" id="current-task-id">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Edit Task</h4>
+            </div>
+            <div class="modal-body">
+                <form id="edit-task-form">
+                    <div class="input">
+                        <input type="text" id="task-title" name="task_title" class = 'text-box valid stretch' placeholder="Title"/>
+                    </div>
+                    <div class="input">
+                        <textarea name="task_desc" id="task-desc" class = 'text-box stretch' placeholder="Task description." rows="5"></textarea>
+                    </div>
+                    <div class="input">
+                        <input class="shareTwo btn btn-default save" value="Delete" id="delete-task" />
+                        <input class="right shareTwo btn btn-default save" value="Save" id="save-edit"/>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>

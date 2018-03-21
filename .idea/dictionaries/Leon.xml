@@ -11,6 +11,13 @@
       <w>minlength</w>
       <w>mouseenter</w>
       <w>mouseleave</w>
+      <w>pname</w>
+      <w>proj</w>
+      <w>tcrea</w>
+      <w>tcreator</w>
+      <w>tdesc</w>
+      <w>tname</w>
+      <w>tproj</w>
       <w>uname</w>
       <w>unhighlight</w>
     </words>

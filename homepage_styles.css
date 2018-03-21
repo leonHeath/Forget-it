@@ -83,6 +83,14 @@ aside{
     background-color: #4ABDAC;
 }
 
+.text-box{
+    display: inline-block;
+    padding: 4px 6px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #4ABDAC;
+}
+
 .note-space{
     margin-left:20%;
     overflow: auto;
@@ -170,9 +178,22 @@ aside{
     margin-bottom: 10px;
 }
 
+.shareTwo{
+    width: 40%;
+}
+
 .stretch{
     width: 100%;
 }
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
 
 #edit-task-desc{
     resize: none;

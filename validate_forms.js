@@ -10,7 +10,7 @@ $(function () {
             },
             username: {
                 required: true,
-                remote: "check_username.php"
+                remote: "Requests/check_username.php"
             },
             password_1: {
                 required: true,
