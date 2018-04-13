@@ -1,27 +1,45 @@
 $(function(){
 
     var $notes = $('.note-space');
+    var resetTasks;
+    var clearTasks;
+    var loadTasks;
 
-    //Loads notes on startup of page
-    $.get("Requests/load_user_tasks.php", function(data){
+    clearTasks = function(){
+        //Delete all visible tasks
+        $('#button-holder').siblings().remove();
+    };
+
+    loadTasks = function () {
         //Load tasks here
-        var ret_tasks = JSON.parse(data);
-        console.log(ret_tasks);
-        var x;
-        for(x in ret_tasks) {
-            var newTask = $('<div class="note">\n' +
-                '            <div class="note-header">\n' +
-                '                <input type="hidden" id="note_id" name="note_id" value=' + ret_tasks[x].task_id + '>\n' +
-                '                <div class="note-title"><h3>' + ret_tasks[x].task_name + '</h3></div>\n' +
-                '                <button id="edit-task" class="hide"></button>\n' +
-                '            </div>\n' +
-                '            <div class="note-content">\n' +
-                '               <p class="note-description">' + ret_tasks[x].task_desc + '</p>\n' +
-                '            </div>\n' +
-                '        </div>');
-            $('#add-task').parent().before(newTask);
-        }
-    });
+        $.get("Requests/load_user_tasks.php", function (data) {
+            var ret_tasks = JSON.parse(data);
+            console.log(ret_tasks);
+            var x;
+            for (x in ret_tasks) {
+                var newTask = $('<div class="note">\n' +
+                    '            <div class="note-header">\n' +
+                    '                <input type="hidden" id="note_id" name="note_id" value=' + ret_tasks[x].task_id + '>\n' +
+                    '                <div class="note-title"><h3>' + ret_tasks[x].task_name + '</h3></div>\n' +
+                    '                <button id="edit-task" class="hide"></button>\n' +
+                    '            </div>\n' +
+                    '            <div class="note-content">\n' +
+                    '               <p class="note-description">' + ret_tasks[x].task_desc + '</p>\n' +
+                    '            </div>\n' +
+                    '        </div>');
+                $('#add-task').parent().before(newTask);
+            }
+        })
+    };
+
+    resetTasks = function () {
+        //Clear initial tasks and then reload them
+        clearTasks();
+        loadTasks();
+    };
+
+    //Reset tasks on start up of web page
+    resetTasks();
 
     $(document).on('click', 'li.selectable',function () {
         console.log('Clicked an item');
@@ -53,7 +71,6 @@ $(function(){
 
     $('#add-task').click(function () {
         console.log('Add a new task');
-
         //Ajax call to create new task in db
         //Return with note id so we can add within html
         //<input type="hidden" id="note_id" name="note_id" value="NOTE_ID"> Store note id with this
@@ -62,30 +79,20 @@ $(function(){
 
         $.post("Requests/create_new_task.php", function(data) {
             $newTaskId = data;
-            console.log($newTaskId);
+            resetTasks();
         })
             .fail(function () {
                 alert("Problem creating new task");
         });
-
-        var $newTask = $('<div class="note">\n' +
-            '            <div class="note-header">\n' +
-            '                <input type="hidden" id="note_id" name="note_id" value=$newTaskId>\n' +
-            '                <div class="note-title"><h3>Default task</h3></div>\n' +
-            '                <button id="edit-task" class="hide"></button>\n' +
-            '            </div>\n' +
-            '            <div class="note-content">\n' +
-            '               <p class="note-description">Write task description here.</p>\n' +
-            '            </div>\n' +
-            '        </div>');
-        $(this).parent().before($newTask);
     });
+
 
     $('#delete-task').click(function(){
         $.post("Requests/delete_task.php", { task_id: $('#current-task-id').val()})
             .done(function () {
                 $('#edit-task-modal').modal('hide');
-                //call refresh of page
+                //refresh tasks
+                resetTasks();
             })
             .fail(function () {
                 alert("Problem deleting task");
@@ -97,7 +104,8 @@ $(function(){
         $.post("Requests/edit_task.php", { task_id: $('#current-task-id').val(), task_name: $('#task-title').val(), task_desc: $('#task-desc').val()})
             .done(function () {
                 $('#edit-task-modal').modal('hide');
-                //call refresh of page
+                //refresh tasks
+                resetTasks();
             })
             .fail(function () {
                 alert("Problem deleting task");
