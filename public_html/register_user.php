@@ -11,7 +11,7 @@
 <html>
     <head>
         <title>User Registration</title>
-        <link href = "styles.css" type="text/css" rel="stylesheet"/>
+        <link href = "CSS/styles.css" type="text/css" rel="stylesheet"/>
     </head>
     <body>
     <div class="center container">

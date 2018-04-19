@@ -10,13 +10,16 @@
     <!-- Bootstrap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Homepage styles -->
-    <link rel="stylesheet" href="homepage_styles.css">
+    <link rel="stylesheet" href="CSS/homepage_styles.css">
     <!-- Homepage logic code -->
-    <script src="homepage_logic.js"></script>
+    <script src="JS/homepage_logic.js"></script>
 </head>
 <body>
 <header>
-    <h1>Forget-It</h1>
+    <div id="header-flex-container">
+        <h1>Forget-It</h1>
+        <button id="logout" class="btn">Logout</button>
+    </div>
 </header>
 <div class="content">
     <aside>
@@ -26,9 +29,6 @@
         <ul class = "user-options">
             <li class = "selectable">
                 Settings
-            </li>
-            <li class = "selectable">
-                Logout
             </li>
         </ul>
         <h3 class = "user-info">

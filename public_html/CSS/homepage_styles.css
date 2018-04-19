@@ -20,6 +20,12 @@ header{
     z-index: 5;
 }
 
+#header-flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .content{
     height: 100%;
     position: relative;
@@ -141,7 +147,7 @@ aside{
 }
 
 #add-task{
-    background-image: url('Images/add-button-v3.png');
+    background-image: url('../Images/add-button-v3.png');
     background-size: 180px;
     height: 180px;
     width: 180px;
@@ -151,7 +157,7 @@ aside{
 }
 
 #edit-task{
-    background: url('Images/edit-v2.png') no-repeat;
+    background: url('../Images/edit-v2.png') no-repeat;
     float: right;
     background-size: 30px;
     height: 30px;

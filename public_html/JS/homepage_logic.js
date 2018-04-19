@@ -12,9 +12,9 @@ $(function(){
 
     loadTasks = function () {
         //Load tasks here
-        $.get("Requests/load_user_tasks.php", function (data) {
+        $.get("homepage_func.php", { func: 'load_tasks' }, function (data) {
+            console.log(data);
             var ret_tasks = JSON.parse(data);
-            console.log(ret_tasks);
             var x;
             for (x in ret_tasks) {
                 var newTask = $('<div class="note">\n' +
@@ -69,15 +69,13 @@ $(function(){
         $(this).removeAttr('id');
     });
 
-    $('#add-task').click(function () {
-        console.log('Add a new task');
-        //Ajax call to create new task in db
+    $('#add-task').click(function (e) {
         //Return with note id so we can add within html
         //<input type="hidden" id="note_id" name="note_id" value="NOTE_ID"> Store note id with this
-
+        e.preventDefault();
         var $newTaskId = 0;
 
-        $.post("Requests/create_new_task.php", function(data) {
+        $.post("homepage_func.php", {func: 'new_task' }, function(data) {
             $newTaskId = data;
             resetTasks();
         })
@@ -88,7 +86,7 @@ $(function(){
 
 
     $('#delete-task').click(function(){
-        $.post("Requests/delete_task.php", { task_id: $('#current-task-id').val()})
+        $.post("homepage_func.php", { func: 'delete_task', task_id: $('#current-task-id').val()})
             .done(function () {
                 $('#edit-task-modal').modal('hide');
                 //refresh tasks
@@ -101,7 +99,7 @@ $(function(){
     });
 
     $('#save-edit').click(function() {
-        $.post("Requests/edit_task.php", { task_id: $('#current-task-id').val(), task_name: $('#task-title').val(), task_desc: $('#task-desc').val()})
+        $.post("homepage_func.php", { func: 'edit_task', task_id: $('#current-task-id').val(), task_name: $('#task-title').val(), task_desc: $('#task-desc').val()})
             .done(function () {
                 $('#edit-task-modal').modal('hide');
                 //refresh tasks
@@ -131,4 +129,13 @@ $(function(){
         $('#task-desc').val($(this).parent('.note-header').next('.note-content').children('.note-description').text());
         $('#edit-task-modal').modal('show');
     });
+
+    $('#logout').click(function(){
+        $.post("homepage_func.php", { func: 'logout_user' }, function (data) {
+                console.log(data);
+                var loc = data.split(" ");
+                document.location.href = loc[1];
+            });
+    });
+
 });
