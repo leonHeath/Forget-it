@@ -9,10 +9,10 @@
 
 class DB
 {
-    private $host = 'localhost';
-    private $db = 'forget_it';
-    private $user = 'Leon';
-    private $pass = '';
+    private $host = 'umabrisfx8afs3ja.cbetxkdyhwsb.us-east-1.rds.amazonaws.com';
+    private $db = 'okkdp12m8pksm5zh';
+    private $user = 'bbbztw9cf9buw32s';
+    private $pass = 'snlqex7rs2g9tgy6';
     private $charset = 'utf8mb4';
 
     private $conn;
