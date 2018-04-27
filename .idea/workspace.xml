@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/public_html/index.php" line="74" />
-    <bookmark url="file://$PROJECT_DIR$/public_html/homepage.php" line="1" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/index.php" line="74" />
+    <bookmark url="file://$PROJECT_DIR$/homepage.php" line="1" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77c8c1e4-153b-4521-8be5-994c54400030" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/CSS/homepage_styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/homepage_styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/CSS/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/Images/Editing-Edit-icon-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/Editing-Edit-icon-green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/Images/add-button-green-small.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/add-button-green-small.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/Images/add-button-green.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/add-button-green.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/Images/add-button-v3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/add-button-v3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/Images/edit-v2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Images/edit-v2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/JS/homepage_logic.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/homepage_logic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/JS/validate_forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/JS/validate_forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/Requests/check_username.php" beforeDir="false" afterPath="$PROJECT_DIR$/Requests/check_username.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/database_access.php" beforeDir="false" afterPath="$PROJECT_DIR$/database_access.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/homepage.php" beforeDir="false" afterPath="$PROJECT_DIR$/homepage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/homepage_func.php" beforeDir="false" afterPath="$PROJECT_DIR$/homepage_func.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/login_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/login_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/register_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/register_user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,44 +54,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public_html/database.php">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="-90">
               <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="homepage_func.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/homepage_func.php">
+        <entry file="file://$PROJECT_DIR$/homepage_func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+            <state relative-caret-position="405">
+              <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/homepage.php">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="165">
+              <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database_access.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database_access.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homepage.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/homepage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="homepage_logic.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/JS/homepage_logic.js">
+        <entry file="file://$PROJECT_DIR$/JS/homepage_logic.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="15">
               <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/index.php">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
@@ -81,7 +118,7 @@
         </entry>
       </file>
       <file leaf-file-name="login_user.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/login_user.php">
+        <entry file="file://$PROJECT_DIR$/login_user.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
@@ -109,7 +146,12 @@
       <find>debug</find>
       <find>xdebug</find>
       <find>homepage</find>
+      <find>public_html</find>
+      <find>publi</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\Users\Leon\PhpstormProjects\Forget-it\public_html</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -127,7 +169,6 @@
         <option value="$PROJECT_DIR$/DBUserAccessInteface.php" />
         <option value="$PROJECT_DIR$/DBUserAccessInterface.php" />
         <option value="$PROJECT_DIR$/Task.php" />
-        <option value="$PROJECT_DIR$/login.html" />
         <option value="$PROJECT_DIR$/LoadUserTasks.php" />
         <option value="$PROJECT_DIR$/loadUserTasks.php" />
         <option value="$PROJECT_DIR$/homepage.php" />
@@ -158,6 +199,9 @@
         <option value="$PROJECT_DIR$/public_html/homepage_func.php" />
         <option value="$PROJECT_DIR$/public_html/JS/homepage_logic.js" />
         <option value="$PROJECT_DIR$/public_html/database.php" />
+        <option value="$PROJECT_DIR$/public_html/login.html" />
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/homepage_func.php" />
       </list>
     </option>
   </component>
@@ -176,7 +220,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="PhpDebugGeneral" xdebug_debug_port="9001" break_at_first_line="true" />
+  <component name="PhpDebugGeneral" xdebug_debug_port="9001" break_at_first_line="true" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="2306168b-f57d-4e17-9e08-340106449aa5" name="localhost" />
@@ -189,7 +233,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -235,20 +279,20 @@
     <property name="SearchEverywhereHistoryKey" value="data&#9;ACTION&#9;ActivateDatabaseToolWindow" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="last_opened_file_path" value="C:/xampp/php/ext/php_xdebug-2.6.0-7.1-vc14.dll" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public_html/index.php" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Leon\PhpstormProjects\Forget-it\Images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Leon\PhpstormProjects\Forget-it" />
       <recent name="C:\Users\Leon\PhpstormProjects\Forget-it\public_html" />
       <recent name="C:\Users\Leon\PhpstormProjects\Forget-it\JS" />
       <recent name="C:\Users\Leon\PhpstormProjects\Forget-it\CSS" />
-      <recent name="C:\Users\Leon\PhpstormProjects\Forget-it" />
       <recent name="C:\Users\Leon\PhpstormProjects\Forget-it\Resources" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Leon\PhpstormProjects\Forget-it\Images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -263,13 +307,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.public_html">
-    <configuration name="homepage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/public_html/homepage.html" />
-    <configuration name="public_html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost/public_html/" />
-    <configuration name="homepage_logic.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/public_html/JS/homepage_logic.js" working-dir="$PROJECT_DIR$" />
+  <component name="RunManager" selected="JavaScript Debug.localhost">
+    <configuration name="homepage.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/homepage.html" />
+    <configuration name="localhost" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost/" />
+    <configuration name="homepage_logic.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="$PROJECT_DIR$/JS/homepage_logic.js" working-dir="$PROJECT_DIR$" />
     <configuration name="Phpversion.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/public_html/Phpversion.php" />
+    <configuration name="Testing" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php" scriptParameters="public_html/" />
     <list>
-      <item itemvalue="JavaScript Debug.public_html" />
+      <item itemvalue="JavaScript Debug.localhost" />
+      <item itemvalue="PHP Script.Testing" />
       <item itemvalue="JavaScript Debug.homepage.html" />
       <item itemvalue="Node.js.homepage_logic.js" />
       <item itemvalue="PHP Script.Phpversion.php" />
@@ -360,7 +406,7 @@
       <workItem from="1524598977545" duration="2795000" />
       <workItem from="1524756751143" duration="305000" />
       <workItem from="1524758970350" duration="15671000" />
-      <workItem from="1524789991393" duration="653000" />
+      <workItem from="1524789991393" duration="3158000" />
     </task>
     <task id="LOCAL-00001" summary="Database access set up&#10;Login in progress">
       <created>1513991808948</created>
@@ -411,11 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524762735291</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Committing datasource xml">
+      <created>1524790929555</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1524790929555</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="334309000" />
+    <option name="totallyTimeSpent" value="336814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -428,19 +481,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1119403" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32897604" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32897604" />
-      <window_info active="true" anchor="right" id="Database" order="3" visible="true" weight="0.3491471" />
       <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32897604" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.32897604" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.39215687" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32897604" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1119403" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" weight="0.6750547" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32934782" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39869282" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.39869282" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -449,7 +504,6 @@
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32897604" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32934782" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,61 +547,62 @@
     <MESSAGE value="Added refresh tasks function, tasks now refresh when tasks are added, edited or deleted. Also fixed bug where task couldn't be edited immediately after its creation" />
     <MESSAGE value="Began organization of files;&#10;Moved logout to header and added functionality" />
     <MESSAGE value="Added JawsDB to data sources and created db tables.&#10;Set new database access variables." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added JawsDB to data sources and created db tables.&#10;Set new database access variables." />
+    <MESSAGE value="Committing datasource xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Committing datasource xml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public_html/index.php</url>
-          <line>80</line>
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public_html/index.php</url>
+          <url>file://$PROJECT_DIR$/index.php</url>
           <line>77</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public_html/homepage.php</url>
+          <url>file://$PROJECT_DIR$/homepage.php</url>
           <line>2</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public_html/database_access.php</url>
+          <url>file://$PROJECT_DIR$/database_access.php</url>
           <line>24</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public_html/database_access.php</url>
+          <url>file://$PROJECT_DIR$/database_access.php</url>
           <line>25</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public_html/database_access.php</url>
+          <url>file://$PROJECT_DIR$/database_access.php</url>
           <line>26</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public_html/database_access.php</url>
+          <url>file://$PROJECT_DIR$/database_access.php</url>
           <line>30</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public_html/database_access.php</url>
+          <url>file://$PROJECT_DIR$/database_access.php</url>
           <line>29</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/public_html/database_access.php</url>
+          <url>file://$PROJECT_DIR$/database_access.php</url>
           <line>28</line>
           <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>80</line>
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="103" />
+      <option name="time" value="104" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -571,49 +626,35 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public_html/login_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/JS/homepage_logic.js">
+    <entry file="file://$PROJECT_DIR$/JS/homepage_logic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
           <caret line="138" column="48" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/homepage.html">
+    <entry file="file://$PROJECT_DIR$/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/database_access.php">
+    <entry file="file://$PROJECT_DIR$/database_access.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/homepage.php">
+    <entry file="file://$PROJECT_DIR$/homepage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/login_user.php">
+    <entry file="file://$PROJECT_DIR$/login_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
@@ -621,28 +662,28 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Requests/edit_task.php" />
-    <entry file="file://$PROJECT_DIR$/public_html/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/JS/homepage_logic.js">
+    <entry file="file://$PROJECT_DIR$/JS/homepage_logic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
           <caret line="138" column="48" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/homepage.html">
+    <entry file="file://$PROJECT_DIR$/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/homepage.php">
+    <entry file="file://$PROJECT_DIR$/homepage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
@@ -650,7 +691,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/Requests/load_user_tasks.php" />
-    <entry file="file://$PROJECT_DIR$/public_html/login_user.php">
+    <entry file="file://$PROJECT_DIR$/login_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
@@ -660,21 +701,21 @@
     <entry file="file://$PROJECT_DIR$/public_html/Phpversion.php" />
     <entry file="file://$PROJECT_DIR$/public_html/Requests/logout_user.php" />
     <entry file="file://$PROJECT_DIR$/public_html/Requests/edit_task.php" />
-    <entry file="file://$PROJECT_DIR$/public_html/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/JS/homepage_logic.js">
+    <entry file="file://$PROJECT_DIR$/JS/homepage_logic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2070">
           <caret line="138" column="48" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/homepage.html">
+    <entry file="file://$PROJECT_DIR$/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
@@ -684,21 +725,21 @@
     <entry file="file://$PROJECT_DIR$/public_html/Requests/load_user_tasks.php" />
     <entry file="file://$PROJECT_DIR$/public_html/Requests/logout_user.php" />
     <entry file="file://$PROJECT_DIR$/public_html/Requests/edit_task.php" />
-    <entry file="file://$PROJECT_DIR$/public_html/JS/homepage_logic.js">
+    <entry file="file://$PROJECT_DIR$/JS/homepage_logic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2010">
           <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/homepage.html">
+    <entry file="file://$PROJECT_DIR$/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
@@ -708,49 +749,49 @@
     <entry file="file://$PROJECT_DIR$/public_html/Requests/load_user_tasks.php" />
     <entry file="file://$PROJECT_DIR$/public_html/Requests/logout_user.php" />
     <entry file="file://$PROJECT_DIR$/public_html/Requests/edit_task.php" />
-    <entry file="file://$PROJECT_DIR$/public_html/JS/homepage_logic.js">
+    <entry file="file://$PROJECT_DIR$/JS/homepage_logic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2010">
           <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/index.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
           <caret line="75" column="13" selection-start-line="75" selection-start-column="13" selection-end-line="75" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/homepage.html">
+    <entry file="file://$PROJECT_DIR$/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/CSS/homepage_styles.css">
+    <entry file="file://$PROJECT_DIR$/CSS/homepage_styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/JS/validate_forms.js">
+    <entry file="file://$PROJECT_DIR$/JS/validate_forms.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="76" selection-start-line="2" selection-start-column="76" selection-end-line="2" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/CSS/homepage_styles.css">
+    <entry file="file://$PROJECT_DIR$/CSS/homepage_styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/register_user.php">
+    <entry file="file://$PROJECT_DIR$/register_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
@@ -770,59 +811,69 @@
     <entry file="file://$PROJECT_DIR$/public_html/Requests/create_new_task.php" />
     <entry file="file://$PROJECT_DIR$/public_html/Requests/load_user_tasks.php" />
     <entry file="file://$PROJECT_DIR$/public_html/Phpversion.php" />
-    <entry file="file://$PROJECT_DIR$/public_html/homepage_func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="35" column="76" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/login_user.php">
+    <entry file="file://$PROJECT_DIR$/login_user.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/homepage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/JS/homepage_logic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/database_access.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/homepage.html">
+    <entry file="file://$PROJECT_DIR$/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="34" column="20" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/database.php">
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database_access.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="285">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS/homepage_logic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
           <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage_func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="64" selection-start-line="35" selection-start-column="64" selection-end-line="35" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homepage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

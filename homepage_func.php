@@ -33,7 +33,7 @@ if(isset($_REQUEST['func'])){
         case 'logout_user':
             session_destroy();
             $_SESSION = array();
-            echo "Location: http://" . $_SERVER['HTTP_HOST'] . "/public_html/index.php";
+            echo "Location: http://" . $_SERVER['HTTP_HOST'] . "/index.php";
             break;
         default:
             exit();
