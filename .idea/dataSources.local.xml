@@ -10,5 +10,15 @@
       <user-name>Leon</user-name>
       <introspection-schemas>*:forget_it</introspection-schemas>
     </data-source>
+    <data-source name="okkdp12m8pksm5zh@umabrisfx8afs3ja.cbetxkdyhwsb.us-east-1.rds.amazonaws.com" uuid="11f247ad-c364-4d62-972e-564cfa274f8b">
+      <database-info product="MySQL" version="5.7.19-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>bbbztw9cf9buw32s</user-name>
+      <introspection-schemas>*:okkdp12m8pksm5zh</introspection-schemas>
+    </data-source>
   </component>
 </project>
