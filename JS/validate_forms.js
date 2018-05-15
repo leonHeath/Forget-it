@@ -1,6 +1,5 @@
 $(function () {
     $("#register_user").validate({
-        debug: true, //TODO remember I put this here, remove after debugging
         rules: {
             first_name: {
                 required: true

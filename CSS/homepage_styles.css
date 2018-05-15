@@ -36,10 +36,8 @@ aside{
     font-family:Arial, Helvetica, sans-serif;
     float: left;
     height: 100%;
-//overflow: auto;
     position: fixed;
     width:20%;
-//padding: .5%;
     background-color: #efedf1; //#DFDCE3;
 }
 
@@ -69,10 +67,8 @@ aside{
     list-style: none;
     float: left;
     width:96%;
-//display: block;
     color: #FC4A1A;
     padding: 2%;
-//background-color: #DFDCE3;
     overflow: hidden;
 }
 
